@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.20-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.0.20] - 2023-01-11
 ### Changed
-- Updated package dependencies.
+- Updated package dependencies. [#28127]
 
 ## [1.0.19] - 2022-12-02
 ### Changed
@@ -97,7 +94,7 @@ This is an alpha version! The changes listed here are not final.
 - Initial release.
 - Replace missing domains too.
 
-[1.0.20-alpha]: https://github.com/Automattic/babel-plugin-replace-textdomain/compare/v1.0.19...v1.0.20-alpha
+[1.0.20]: https://github.com/Automattic/babel-plugin-replace-textdomain/compare/v1.0.19...v1.0.20
 [1.0.19]: https://github.com/Automattic/babel-plugin-replace-textdomain/compare/v1.0.18...v1.0.19
 [1.0.18]: https://github.com/Automattic/babel-plugin-replace-textdomain/compare/v1.0.17...v1.0.18
 [1.0.17]: https://github.com/Automattic/babel-plugin-replace-textdomain/compare/v1.0.16...v1.0.17
