@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Remove unnecessary files from mirror repo and published package.
 
+### Fixed
+- Fix incorrectly copy-pasted package name in readme.
+
 ## [1.0.26] - 2023-07-17
 ### Changed
 - Updated package dependencies. [#31872]
