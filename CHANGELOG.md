@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.5-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Skip gettext-shaped calls on an inline object, array, function or literal when `requireI18nSource` is set; rolldown inlines a single-use `cache` binding into that shape.
+
 ## [1.2.4] - 2026-10-20
 ### Changed
 - Internal updates.
@@ -297,6 +304,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release.
 - Replace missing domains too.
 
+[1.2.5-alpha]: https://github.com/Automattic/babel-plugin-replace-textdomain/compare/v1.2.4...v1.2.5-alpha
 [1.2.4]: https://github.com/Automattic/babel-plugin-replace-textdomain/compare/v1.2.3...v1.2.4
 [1.2.3]: https://github.com/Automattic/babel-plugin-replace-textdomain/compare/v1.2.2...v1.2.3
 [1.2.2]: https://github.com/Automattic/babel-plugin-replace-textdomain/compare/v1.2.1...v1.2.2
